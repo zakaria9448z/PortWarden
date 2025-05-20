@@ -38,4 +38,4 @@
 ## 🚀 Usage
 
 ```bash
-python port_scanner.py <host>
+python PortWarden.py <host>
