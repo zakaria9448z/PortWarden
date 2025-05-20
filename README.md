@@ -1,2 +1,40 @@
-# PortWarden
-PortWarden is a fast and stealthy TCP port scanner written in Python. It scans all 65,535 ports with multi-threaded speed, shows open ports in real-time, saves results to JSON, and gives detailed service names for commonly used ports — perfect for penetration testing, CTFs, or network reconnaissance.
+# 🔐 PortWarden – The Stealthy Port Scanner
+
+> ⚡ Fast, threaded, and hacker-friendly TCP port scanner written in Python
+
+[![License](https://img.shields.io/github/license/biplo8/portwarden )](https://github.com/biplo8/portwarden/blob/main/LICENSE )
+[![Python](https://img.shields.io/badge/python-3.7%2B-blue.svg )](https://www.python.org/ )
+[![Build](https://img.shields.io/badge/status-active-brightgreen.svg )](https://github.com/biplo8/portwarden )
+
+---
+
+## 🛠 What is PortWarden?
+
+**PortWarden** is a powerful network reconnaissance tool designed for ethical hackers and penetration testers. It scans all 65,535 TCP ports using multi-threading, identifies known services running on open ports, and saves results in structured JSON format.
+
+> Perfect for CTFs, bug bounty hunting, or learning how network scanning works under the hood.
+
+---
+
+## 🌟 Features
+
+✅ Multi-threaded scanning (up to 300 threads)  
+✅ Real-time open port detection  
+✅ Live progress bar with ETA  
+✅ Service name lookup for over 100+ common ports  
+✅ Auto-saves results to `.json` file (`<target_ip>.json`)  
+✅ Final summary: "Found X open ports"  
+
+---
+
+## 📦 Requirements
+
+- Python 3.7+
+- Standard libraries only (no external dependencies)
+
+---
+
+## 🚀 Usage
+
+```bash
+python port_scanner.py <host>
