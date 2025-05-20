@@ -8,6 +8,23 @@ import os
 import platform
 from concurrent.futures import ThreadPoolExecutor, as_completed
 import threading
+logo = """
+
+██████   ██████  ██████  ████████ 
+██   ██ ██    ██ ██   ██    ██    
+██████  ██    ██ ██████     ██    
+██      ██    ██ ██   ██    ██    
+██       ██████  ██   ██    ██    
+                                  
+██     ██  █████  ██████  ██████  ███████ ███    ██ 
+██     ██ ██   ██ ██   ██ ██   ██ ██      ████   ██ 
+██  █  ██ ███████ ██████  ██   ██ █████   ██ ██  ██ 
+██ ███ ██ ██   ██ ██   ██ ██   ██ ██      ██  ██ ██ 
+ ███ ███  ██   ██ ██   ██ ██████  ███████ ██   ████ 
+                                                    
+MADE WITH <3 BY B14CK-KN1GH7"""
+
+print(logo+"\n")
 COMMON_PORTS = {
     7: "Echo",
     20: "FTP Data",
