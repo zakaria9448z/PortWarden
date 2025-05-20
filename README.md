@@ -34,8 +34,10 @@
 - Standard libraries only (no external dependencies)
 
 ---
+## 🚀 install
+```pip install portwarden```
 
 ## 🚀 Usage
 
 ```bash
-python PortWarden.py <host>
+portwarden <host>
