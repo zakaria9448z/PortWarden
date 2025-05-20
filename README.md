@@ -2,7 +2,6 @@
 
 > ⚡ Fast, threaded, and hacker-friendly TCP port scanner written in Python
 
-[![License](https://img.shields.io/github/license/biplo8/portwarden )](https://github.com/biplo8/portwarden/blob/main/LICENSE )
 [![Python](https://img.shields.io/badge/python-3.7%2B-blue.svg )](https://www.python.org/ )
 [![Build](https://img.shields.io/badge/status-active-brightgreen.svg )](https://github.com/biplo8/portwarden )
 
